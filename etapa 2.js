@@ -1,7 +1,11 @@
+/*
+ Equipe:
+ Alvaro Jose Lucena Marinho - subturma D
+ Tassio Araujo de Lima - subturma D
+ Etapa 2
+ */
 function setup() {
-
  createCanvas(900,900);
-
 }
 function draw() {
   background(0, 255, 0);

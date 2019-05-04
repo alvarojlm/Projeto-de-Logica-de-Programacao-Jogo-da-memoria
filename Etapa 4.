@@ -1,0 +1,23 @@
+function setup() {
+ createCanvas(900,900);
+}
+let value = 0;
+function draw() {
+  background(0, 255, 0);
+  fill(51);
+  rect(-1,-1,900,250);
+  rect(50,300,350,250);
+  rect(50,600,350,250);
+  rect(500,300,350,250);
+  rect(500,600,350,250);
+  fill(value);
+  rect(mouseX,mouseY,55,55);   
+}
+
+function mouseClicked(){
+  if (value == 0){
+    value = 255;
+  }else {
+    value = 0;
+  }
+}

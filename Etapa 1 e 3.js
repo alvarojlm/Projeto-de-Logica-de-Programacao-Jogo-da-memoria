@@ -16,7 +16,8 @@ function setup() {
 }
 
 function draw() {
-  background(0, 255, 0);
+  background(0, 126, 255);
+  fill('#EDAD35');
   rect(x1, 80, 220, 220);
   x1 = x1 + v1;
 if (x1 > 800) {
@@ -24,13 +25,14 @@ if (x1 > 800) {
   v1 =v1 + 1;
   
   }
+  fill('#50F748');
   circle(x2, 480, 110);
   x2 = x2 + v2;
   if (x2 > 800) {
     x2 = 50;
     v2 = v2 +1;
   }
-    
+    fill('#F02E2E');
    triangle( x3, 813, x3+110, 630, x3+220, 813)
   x3 = x3+v3
   if (x3 > 800){

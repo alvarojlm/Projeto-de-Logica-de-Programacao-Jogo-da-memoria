@@ -7,7 +7,7 @@
   body {
     height: 100vh;
     display: flex;
-    background:#1805c2;
+    background-image: url(img/fundo.jpg);
   }
   
   #cardboard {
@@ -41,7 +41,7 @@
     height: 100%;
     padding: 20px;
     position: absolute;
-    background: #090150;
+    background: #f1f512;
   }
   
   .front-face {
